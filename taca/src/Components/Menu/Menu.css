@@ -1,0 +1,58 @@
+/* Title Section Styles */
+
+.menu_div{
+  margin-top: 50px;
+  padding-top: 100px;
+  margin-bottom: 300px;
+}
+  
+  .menu-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 16px 0;
+    padding: 16px;
+}
+
+.add-dish-button {
+  background-color: transparent; /* Keep the background transparent */
+  border: 2px solid #ff4500; /* Add a square border with the same color as the icon */
+  border-radius: 4px; /* Adjust the border-radius to make the border square */
+  cursor: pointer; /* Change the cursor to pointer */
+  font-size: 24px; /* Increase the size of the icon */
+  color: #ff4500; /* Set the color of the icon */
+  padding: 8px; /* Add some padding for a balanced look */
+  margin-bottom: 10px;
+}
+
+.add-dish-button:hover {
+  color: #ff6347; /* Change color on hover */
+  border-color: #ff6347; /* Change the border color on hover */
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    margin-right: 10px;
+  }
+  
+  form input {
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

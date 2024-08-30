@@ -1,0 +1,167 @@
+/* Orders.css */
+.orders-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .half, .second-half {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid;
+    width: 100%;
+  }
+  
+  .cardorder {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cardorder:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardorder.expanded .card-body {
+    display: block;
+    background-color: #403f3f;
+  }
+  
+  .card-header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #403f3f;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    color: #ff4500;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .card-header:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .accept-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .complete-btn {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .status-checks {
+    margin-top: 20px;
+  }
+  
+  .order-completed {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .cardorder.completed {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Orders.css */
+
+.cardorder {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white; /* Ensure background color is visible */
+  }
+  
+  .cardorder.completed {
+    background-color: #4caf50; /* Green background for completed orders */
+    color: white; /* White text for completed orders */
+  }
+  
+  .complete-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block; /* Ensure the button is displayed as a block element */
+  }
+  
+  .complete-btn:disabled {
+    background-color: #a5d6a7; /* Lighter green for disabled state */
+    cursor: not-allowed;
+  }
+  
+  .status-checks {
+    margin-top: 10px;
+  }
+  
+  .order-completed {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .card-header {
+    background-color: #403f3f;
+    color: #ff4500;
+  }
+  
+  .card-header:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .card-body {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .cardorder.expanded .card-body {
+    display: block;
+  }
+  

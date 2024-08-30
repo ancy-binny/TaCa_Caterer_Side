@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    font-family: 'Arial, sans-serif';
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .registerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .registerContainer {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .registerContainer h2 {
+    text-align: center;
+    color: #ff4500;
+    margin-bottom: 20px;
+  }
+  
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  .registerForm input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .registerForm button {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registerForm button:hover {
+    background-color: #e63900;
+  }
+  
+  @media (max-width: 600px) {
+    .registerContainer {
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
+  

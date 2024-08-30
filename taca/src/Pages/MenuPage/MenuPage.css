@@ -1,0 +1,19 @@
+/* Ensure that the page container takes up at least the full height of the viewport */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Ensure the content-wrap takes up all the available space except for the footer */
+  .content-wrap {
+    flex: 1;
+  }
+  
+  /* Style the footer to ensure it appears at the bottom */
+  footer {
+    background-color: #f8f9fa; /* Example footer background color */
+    padding: 20px;
+    text-align: center;
+  }
+  

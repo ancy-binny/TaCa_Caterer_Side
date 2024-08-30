@@ -1,0 +1,5 @@
+/* OrderPage.css */
+.order-page-main {
+    display: flex;
+    height: calc(100vh - 100px); /* Adjust based on the header and footer height */
+  }

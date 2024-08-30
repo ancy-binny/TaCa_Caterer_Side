@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px ; */
+    background-color: rgb(12, 12, 12);
+    border-bottom: 8px solid #c8e0e0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+
+  .header.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .welcome-message {
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Text color */
+    padding: 8px 16px; /* Padding around the text */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    margin-right: 10px; /* Space between message and button */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  }
+  
+  .logout-button {
+    background-color: #ff4c4c; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Button padding */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  }
+  
+  .logout-button:hover {
+    background-color: #e04141; /* Darker red on hover */
+  }
+  
+  
+  .header.visible {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height to fit your design */
+  }
+  
+ .nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 20px; /* Adjust this value to control the space between the links */
+  margin: 0 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+
+
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+  }
+  
+  .actions a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+  }
+  
+  .actions .icon {
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: #c8e0e0; /* Change this to your desired hover color */
+  }
+  
+  .nav-link.active {
+    color: #c8e0e0; /* Change this to your desired active color */
+    border-bottom: 2px solid #c8e0e0; /* Change this to your desired active underline color */
+  }
+  
